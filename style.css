@@ -1,0 +1,106 @@
+@import url(<link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Inter';
+
+}
+header{
+    background: #4B93BF;
+    color: #E4EEF1;
+    
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 29,5vh;
+   
+}
+h2{
+    margin-right: 90vh;
+    font-size: 25px;
+}
+ol{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    width:40vw ;
+}
+
+.container__section1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #e4eef1;
+}
+.container__section1 p{
+    width: 30vw;
+    font-size: 18px;
+    color: #0f468c;
+}
+.container__section2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #4b93bf;
+
+}
+h1 {
+    width: 30vw;
+    font-size: 26px;
+    font-weight: 300;
+    color: #ffff;
+    word-spacing: 6px;
+  }
+.container__section2 img{
+    position: relative;
+    left: 45px;
+} 
+.container__section3{
+    background-color: #E4EEF1;
+} 
+.container__section3 figure{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.container__section3 img{
+    width: 22vw;
+    height: 55vh;
+}
+.cansado{
+    position: relative;
+    top: 1.4vh;
+}
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #4B93BF;
+    color: #ffffff;
+    height: 18vh;
+  }
+  footer nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 12vw;
+}
+footer img{
+    width: 6vw;
+}
+footer div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 16px;
+}
+.pinguim{
+    width: 4vw;
+}
+
